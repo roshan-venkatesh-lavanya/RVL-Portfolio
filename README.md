@@ -2,43 +2,8 @@
 ## ROSHAN VENKATESH LAVANYA PORTFOLIO
 LIVE ~ https://roshanvl-portfolio.netlify.app/
 ________________________________
-## 🎓 Education & Internships
+<img width="1882" height="901" alt="image" src="https://github.com/user-attachments/assets/d930a2ef-c331-4f45-ae07-7730cbe86d99" />
 
-🔐 The centerpiece of the portfolio includes a redesigned `Encryption` section — with the lock symbolizing secure knowledge — showcasing:
-
-### 📚 Education
-- **Northeastern University, Boston, MA**  
-  *MS in Computer Science and Information Science* (2025–2026)
-
-- **Vellore Institute of Technology, Chennai**  
-  *B.Tech in Computer Science* (2020–2024)
-
-### 💼 Internships
-- **AI Intern – Pantech Solutions**  
-  Worked on pretrained models, generative AI, OpenCV, and AWS AI tools.
-
-- **Web Dev Intern – The Sparks Foundation**  
-  Developed a payment gateway with email automation and secure UI using JS & Bootstrap.
-
----
-
-## 🛠 Tech Stack
-
-![React](https://skillicons.dev/icons?i=react,next,ts,tailwind,threejs,vercel,aws,python,nodejs,mongodb)
-
-- **Frontend:** React.js, Next.js 14, Tailwind CSS, Framer Motion  
-- **Backend:** Node.js, Express.js, MongoDB  
-- **AI/ML:** Python, TensorFlow, OpenCV  
-- **Cloud & DevOps:** AWS, GitHub, Vercel  
-- **Other Tools:** TypeScript, ESLint, PostCSS, Three.js, Git
-
----
-
-## 📸 Screenshots
-
-> _A clean, space-inspired, interactive UI with animations, glowing components, and a vertical lock-centered resume viewer._
-
-(Insert screenshots here if desired)
 
 ---
 
