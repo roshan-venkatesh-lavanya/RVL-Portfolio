@@ -54,15 +54,29 @@ export const HeroContent = () => {
         
         </motion.p>
 
-        <motion.a
-          variants={slideInFromLeft(1)}
-          href="https://drive.google.com/file/d/1oN_lj7JKk7uYHkktFA2QpjRIk0xTWtpn/view?usp=sharing"
+      <motion.a
+  variants={slideInFromLeft(1)}
+  href="https://drive.google.com/file/d/1oN_lj7JKk7uYHkktFA2QpjRIk0xTWtpn/view?usp=sharing"
   target="_blank"
   rel="noopener noreferrer"
-          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
-        >
-          View Resume
-        </motion.a>
+  className="group relative inline-flex items-center justify-center px-6 py-3 mt-2 text-white font-semibold rounded-lg bg-gradient-to-r from-purple-600 via-indigo-600 to-cyan-500 hover:from-purple-700 hover:to-cyan-600 transition-all duration-300 shadow-[0_0_20px_rgba(112,66,248,0.4)]"
+>
+  <svg
+    className="w-5 h-5 mr-2 text-white group-hover:translate-y-0.5 transition-transform"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    viewBox="0 0 24 24"
+  >
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      d="M12 4v16m8-8H4"
+    />
+  </svg>
+  View Resume
+</motion.a>
+
       </div>
 
       <motion.div
