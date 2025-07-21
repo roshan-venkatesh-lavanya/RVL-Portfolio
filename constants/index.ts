@@ -254,28 +254,34 @@ export const OTHER_SKILL = [
 
 export const PROJECTS = [
   {
-    title: "Modern Next.js 14 Portfolio",
+    title: "Abnormal Network Traffic & Threat Detection",
     description:
-      'Embark on a journey through my professional evolution with the "Modern Next.js Portfolio" - a dynamic showcase of my skills, experiences, and passion for web development. Crafted with precision and powered by Next.js, this portfolio is more than just a static display; it\'s an immersive experience that reflects the cutting edge of modern web technologies.',
-    image: "/projects/project-1.png",
-    link: "https://example.com",
+      "Built a hybrid ML model using KNN & SVM to detect anomalies in the KDD'99 dataset. Achieved 95.89% accuracy while reducing false positives by 30%, improving triage efficiency for cybersecurity threats.",
+    image: "/projects/threat-detection.png",
+    link: "https://github.com/your-username/threat-detection",
   },
   {
-    title: "Interactive Cards Portfolio",
+    title: "A-CRADDLE: Smart Infant Monitoring System",
     description:
-      'Step into the extraordinary world of my professional journey through the "Interactive Cards Portfolio" - an innovative and visually captivating platform that redefines the traditional portfolio experience. Ditching the conventional static layout, this portfolio leverages interactive cards to showcase my skills, projects, and personality in an engaging and dynamic manner.',
-    image: "/projects/project-2.png",
-    link: "https://example.com",
+      "Designed a dual-function IoT system to monitor asthma triggers and infant needs using multi-sensor fusion. Achieved 92% prediction accuracy and 5-second caregiver alerts via real-time SMS notifications.",
+    image: "/projects/acraddle.png",
+    link: "https://github.com/your-username/a-craddle",
   },
   {
-    title: "Space Themed Website",
+    title: "Kambaz: Full-Stack Academic Portal",
     description:
-      'Embark on an interstellar journey with my "Space Themed Website", a mesmerizing space-themed website that invites you to explore the cosmic wonders beyond our world. Immerse yourself in an awe-inspiring digital experience that blends cutting-edge design with the mysteries of the universe.',
-    image: "/projects/project-3.png",
-    link: "https://example.com",
+      "Built a MERN-based Canvas clone with role-based JWT auth, assignment workflows, and 18+ reusable components. Achieved functional parity with NEU Canvas and improved load time by 30%.",
+    image: "/projects/kambaz.png",
+    link: "https://github.com/your-username/kambaz",
+  },
+  {
+    title: "Exploring AWS Tools for Cloud Deployment",
+    description:
+      "Deployed scalable web services on AWS using EC2, S3, and Load Balancing. Practiced CI/CD with GitHub-AWS integration and achieved 99.9% uptime with reduced latency and file load times.",
+    image: "/projects/aws-cloud.png",
+    link: "https://github.com/your-username/aws-deployment",
   },
 ] as const;
-
 export const FOOTER_DATA = [
   {
     title: "Community",
