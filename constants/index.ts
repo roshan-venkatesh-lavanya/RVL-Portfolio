@@ -281,6 +281,20 @@ export const PROJECTS = [
     image: "/projects/aws-cloud.png",
     link: "https://github.com/your-username/aws-deployment",
   },
+   {
+  title: "Pay-as-you-Grow: Blockchain-based Milestone Payment dApp",
+  description:
+    "Designed a decentralized installment release system for smallholder farmers using smart contracts, milestone tracking, and agentic AI for verification. Achieved secure payout flow and milestone-linked disbursal with MetaMask integration.",
+  image: "/projects/pay-as-you-grow.png", 
+  link: "https://github.com/roshan-venkatesh-lavanya/AgenticEthereumHackathonIndia" 
+},
+{
+  title: "Atypical: A Virtual Space for ADHD Users",
+  description:
+    "Created a gesture-controlled mouse and a calming web experience for ADHD and autistic users using OpenCV, Mediapipe, and PyAutoGUI. Included a memory game, music player, and fully accessible UI designed in Figma and Relume.",
+  image: "/projects/atypical.png", 
+  link: "https://github.com/roshanvl/atypical-adhd-app" 
+},
 ] as const;
 export const FOOTER_DATA = [
   {

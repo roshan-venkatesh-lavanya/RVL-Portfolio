@@ -19,19 +19,20 @@ export const ProjectCard = ({
       href={link}
       target="_blank"
       rel="noreferrer noopener"
-      className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61]"
+      className="relative flex flex-col overflow-hidden rounded-xl border border-[#2A0E61] bg-[#0c011c] shadow-md transition-transform duration-300 hover:scale-[1.03]"
     >
-      <Image
-        src={src}
-        alt={title}
-        width={1000}
-        height={1000}
-        className="w-full object-contain"
-      />
+      <div className="relative h-[200px] w-full">
+        <Image
+          src={src}
+          alt={title}
+          fill
+          className="object-cover rounded-t-xl"
+        />
+      </div>
 
-      <div className="relative p-4">
-        <h1 className="text-2xl font-semibold text-white">{title}</h1>
-        <p className="mt-2 text-gray-300">{description}</p>
+      <div className="flex flex-col justify-between p-4 h-[220px]">
+        <h1 className="text-xl font-semibold text-white mb-2">{title}</h1>
+        <p className="text-gray-300 text-sm">{description}</p>
       </div>
     </Link>
   );
