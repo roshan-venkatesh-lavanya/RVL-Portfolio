@@ -258,28 +258,28 @@ export const PROJECTS = [
     description:
       "Built a hybrid ML model using KNN & SVM to detect anomalies in the KDD'99 dataset. Achieved 95.89% accuracy while reducing false positives by 30%, improving triage efficiency for cybersecurity threats.",
     image: "/projects/threat-detection.png",
-    link: "https://github.com/your-username/threat-detection",
+    link: "https://github.com/roshan-venkatesh-lavanya/",
   },
   {
     title: "A-CRADDLE: Smart Infant Monitoring System",
     description:
       "Designed a dual-function IoT system to monitor asthma triggers and infant needs using multi-sensor fusion. Achieved 92% prediction accuracy and 5-second caregiver alerts via real-time SMS notifications.",
     image: "/projects/acraddle.png",
-    link: "https://github.com/your-username/a-craddle",
+    link: "https://github.com/roshan-venkatesh-lavanya/",
   },
   {
     title: "Kambaz: Full-Stack Academic Portal",
     description:
       "Built a MERN-based Canvas clone with role-based JWT auth, assignment workflows, and 18+ reusable components. Achieved functional parity with NEU Canvas and improved load time by 30%.",
     image: "/projects/kambaz.png",
-    link: "https://github.com/your-username/kambaz",
+    link: "https://remarkable-pony-5a997e.netlify.app/",
   },
   {
     title: "Exploring AWS Tools for Cloud Deployment",
     description:
       "Deployed scalable web services on AWS using EC2, S3, and Load Balancing. Practiced CI/CD with GitHub-AWS integration and achieved 99.9% uptime with reduced latency and file load times.",
     image: "/projects/aws-cloud.png",
-    link: "https://github.com/your-username/aws-deployment",
+    link: "https://github.com/roshan-venkatesh-lavanya/",
   },
    {
   title: "Pay-as-you-Grow: Blockchain-based Milestone Payment dApp",
@@ -293,7 +293,7 @@ export const PROJECTS = [
   description:
     "Created a gesture-controlled mouse and a calming web experience for ADHD and autistic users using OpenCV, Mediapipe, and PyAutoGUI. Included a memory game, music player, and fully accessible UI designed in Figma and Relume.",
   image: "/projects/atypical.png", 
-  link: "https://github.com/roshanvl/atypical-adhd-app" 
+  link: "https://github.com/roshan-venkatesh-lavanya/" 
 },
 ] as const;
 export const FOOTER_DATA = [
